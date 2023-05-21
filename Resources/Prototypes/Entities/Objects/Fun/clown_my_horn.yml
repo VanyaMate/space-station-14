@@ -1,0 +1,11 @@
+- type: entity
+  name: Клоунский гудок
+  parent: BaseItem
+  id: ClownMyHorn
+  description: Тупа мой гудок
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/bikehorn.rsi
+    state: icon
+  - type: PlaySoundOnUse
+    sound: /Audio/Items/bikehorn.ogg
